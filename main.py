@@ -1,4 +1,4 @@
 num = int(input("Insert a number: "))
-for i in range(10):
-    print(f"{num} x {i+1} = {num*(i+1)}")
+for i in range(num):
+    print(f"{2 ** (i+1)}")
     
