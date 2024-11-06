@@ -3,6 +3,9 @@ div = []
 for i in range(1, num):
     if num % i == 0:
         div.append(i)
+    
+    if i > num/2:
+        i = num
 
 div.append(num)
 
