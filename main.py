@@ -1,4 +1,4 @@
 a = int(input("Altura: "))
-b = int(input("Ancho: "))
-for i in range(a):
-    print("".join(f"* " for j in range(b)))
+
+for i in range(1,a+1):
+    print("".join(f"*" for j in range(i)))
