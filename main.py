@@ -1,4 +1,6 @@
-a = int(input("Altura: "))
-
-for i in range(1,a+1):
-    print("".join(f"*" for j in range(i)))
+a = int(input("Lado: "))
+msg = ""
+for i in range(a-1):
+    msg.join(" ")
+    for j in range(a):
+        msg.join("*")
