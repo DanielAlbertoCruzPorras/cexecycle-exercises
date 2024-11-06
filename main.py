@@ -1,12 +1,8 @@
-num = int(input("Insert a number: "))
-div = []
-for i in range(1, num):
-    if num % i == 0:
-        div.append(i)
-    
-    if i > num/2:
-        i = num
-
-div.append(num)
-
-print(" ".join(f"{num:3}" for num in div))
+b = True
+sum = float()
+while b:
+    tramo = int(input("Duracion tramo: "))
+    sum += tramo
+    if tramo == 0:
+        b = False
+print(f"Tiempo total del viaje: {sum//60:.0f}:{sum%60:.0f} horas")
